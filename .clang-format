@@ -1,0 +1,12 @@
+BasedOnStyle: WebKit
+IndentWidth: 8
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^<.*\.h>'
+    Priority: 1
+  - Regex: "^<.*>"
+    Priority: 2
+  - Regex: '^".*\.h"'
+    Priority: 3
+  - Regex: '^".*"'
+    Priority: 4
